@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- BOOTSTRAPS 5 CSS -->
+    <link rel="stylesheet" href="assets/dist/css/bootstrap/bootstrap.min.css">
+    <!-- \! BOOTSTRAP 5 CSS -->
+
+    <!-- OWL CAROUSEL -->
+    <link rel="stylesheet" href="assets/dist/plugins/owlcarousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/dist/plugins/owlcarousel/owl.theme.default.min.css">
+    <!-- \! OWL CAROUSEL -->
+
+    <!-- STYLE CSS -->
+    <link rel="stylesheet" href="assets/dist/css/style.css">
+    <!-- \!STYLE CSS -->
+    <title>Contact - Story Factory</title>
+</head>
+<style>
+    body {
+        background-image: url("assets/dist/img/contact.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        min-height: 100vh;
+    }
+
+    .img {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        z-index: 1;
+        background: rgba(25, 25, 25, 0.7);
+    }
+</style>
+
+<body>
+    <div class="img">
+        <!-- NAVBAR -->
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top-2">
+            <div class="container">
+                <a class="navbar-brand logo" href="index.html">
+                    <img src="assets/dist/img/logo.png" alt="storyfactory" class="d-inline-block align-text-top">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="service.html">Service</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="portofolio.html">Portofolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- \! NAVBAR -->
+        <!-- Content -->
+        <div class="container text-white mt-5 pt-5">
+            <main>
+                <br>
+                <div class="mt-5 pt-5 text-center">
+                    <h2 class="fw-bold">Hubungi Kami</h2>
+                    <p class="lead mb-4">Jika Anda memiliki pertanyaan seputar layanan kami, silahkan hubungi kami
+                        di sini</p>
+                </div>
+                <div class="d-grid gap-2 col-6 text-center mx-auto mt-4 pt-2">
+                    <a href="https://wa.me/62895335976239?text=Halo%2C%20Story%20Factory%20!%0A%20%0ASaya%20mendapat%20informasi%20dari%20website%20Story%20Factory%2C%20saya%20tertarik%20pada%20jasa%20yang%20ditawarkan.%0ASaya%20ingin%20bertanya%20seputar%20layanan%20yang%20ditawarkan%20Story%20Factory.%0A%0ATerima%20Kasih"
+                        class="btn btn-gold">Kirim</a>
+                </div>
+            </main>
+        </div>
+    </div>
+
+</body>
+<footer>
+    <!-- JQUERY JS -->
+    <script src="assets/dist/plugins/jquery/jquery.min.js"></script>
+    <!-- \! JQUERY JS -->
+
+    <!-- OWL CAROUSEL JS -->
+    <script src="assets/dist/plugins/owlcarousel/owl.carousel.min.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            $('.owl-carousel').owlCarousel({
+                items: 1,
+                lazyLoad: true,
+                loop: true,
+            });
+        });
+    </script>
+    <!-- \! OWL CAROUSEL JS -->
+
+    <!-- FONT AWESOME -->
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <!-- \! FONT AWESOME  -->
+
+    <!-- BOOTSTRAPS 5 JS -->
+    <script src="assets/dist/js/bootstrap/bootstrap.min.js"></script>
+    <!-- \! BOOTSTRAPS 5 JS -->
+</footer>
+
+</html>
